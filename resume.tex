@@ -2,45 +2,45 @@
 
 \documentclass[a4paper,10pt]{article}
 
+\usepackage{hyperref}
+
 \addtolength{\oddsidemargin}{-1.3in}
 \addtolength{\evensidemargin}{-1.3in}
 \addtolength{\textwidth}{2.6in}
 \addtolength{\topmargin}{-1.25in}
 \addtolength{\textheight}{5in}
 
-\usepackage{hyperref}
-
 \newcommand{\horizontalline}{{\rule{533pt}{0.625pt}\\}}
-
 \renewcommand{\section}[1]{{\noindent\textbf{\large #1}\\\horizontalline}}
-
 \renewcommand{\subsection}[2]{{\noindent \textbf{#1}\hfill \textsc{#2}\\}}
 
 \begin{document}
-\par{\centering{\Huge \textsc{Bruce Szudera Wienand}}\par}
-\par{\centering{bszuderaw@gmail.com \textbullet\ (616) 510-8277}\par}
+\par{\centering{\Huge \textsc{Bruce Szudera Wienand}} \par}
+\par{\centering{bszuderaw@gmail.com} \par}
 \bigskip
 \bigskip
 
 %----------------------------------------------------------------------------------------
-% Education
+% Experience
 %----------------------------------------------------------------------------------------
-\section{Education}
-\subsection{The University of Michigan, Ann Arbor}{April 2017}
-Bachelors of Science in Computer Science \hfill \normalsize \textsc{Gpa}: 3.92/4.0\\
-Bachelors of Science in Pure Mathematics \hfill \normalsize \textit{High Honors}\\
-Minor in Linguistics\\
-\textit{Coursework}: Data Structures and Algorithms, Web Databases and Information Systems, Machine Learning,\\
-\hphantom{Coursework:::}Artificial Intelligence, Computer Security, Linear Algebra,
-Advanced Calculus, Combinatorics\\
-\hphantom{Coursework:::}and Graph Theory, Mathematics of Finance, Computational Linguistics\\
+\section{Experience}
+\subsection{Ternary}{December 2020 - Present}
+\textit{Engineering Manager}\\
+\textbullet\ Led the engineering team responsible for server-side applications; data storage, processing and serving; and infrastructure\\
+\textbullet\ Managed and negotiated stakeholder expectations regarding scope, priority, tradeoffs and timelines\\
+\textbullet\ Introduced processes to maximize communication, collaboration and velocity yet remaining lightweight time commitments\\
+\textbullet\ Supported career goals by working with team members to develop growth plans and calibrate at regular cadences\\
+\textbullet\ Built hiring pipeline from screening resumes and coordinating interviews to presenting offers and onboarding hires\\
+\textbullet\ Provided technical guidance and oversight while allowing engineers room to learn for themselves, grow and make mistakes\\ \\
+\textit{Founding Engineer}\\
+\textbullet\ Translated high-level feature ideas into actionable implementation strategies and executed from inception to completion\\
+\textbullet\ Designed and built ETL pipelines utilizing Cloud Scheduler, Cloud Run, BigQuery and Golang processing 200TB+ daily\\
+\textbullet\ Ensured reliability of services by designing them to be fault tolerant while also leveraging monitoring and alerting\\
+\textbullet\ Rearchitected storage and serving layers reducing p99 query latency by 90\% ensuring high quality customer experience\\
+\textbullet\ Contributed support to community around the open source application Cube and was recognized as a \href{https://cube.dev/community}{community Hero}\\
 
-%----------------------------------------------------------------------------------------
-% Work Experience
-%----------------------------------------------------------------------------------------
-\section{Work Experience}
-\subsection{Software Engineer}{August 2018-Present}
-\textit{LiveRamp}\\
+\subsection{LiveRamp}{August 2018-November 2020}
+\textit{Data Engineer}\\
 \textbullet\ Led cost optimization initiative to decrease my team's cloud spend by over \$1,000,000 per year\\
 \textbullet\ Optimized spend by tuning expensive apps, increasing utilization of costly infrastructure and educating teammates\\
 \textbullet\ Assisted in rearchitecture of Hadoop MapReduce-based pipeline to Apache Spark to modernize tech stack\\
@@ -48,48 +48,43 @@ Advanced Calculus, Combinatorics\\
 \textbullet\ Maintained health of twenty apps across five Hadoop clusters running up to 1,000 nodes and 10,000 jobs per day\\
 \textbullet\ Migrated on-prem VM-based big data workloads and high availability servers to the cloud using Docker and Kubernetes\\
 \textbullet\ Educated my teammates by leading periodic tech deep dives and organizing overviews of adjacent teams' responsibilities\\
-\textbullet\ Introduced and advocated for various Scrum and engineering best practices to improve health and efficiency of team\\
+\textbullet\ Introduced and advocated for various Scrum and engineering best practices to improve health and efficiency of team\\ \\
+\textit{Full Stack Engineer}\\
 \textbullet\ Developed a cloud-native web app using React and Node to allow customers to manage segments and compute stats\\
 \textbullet\ Decreased page load time by 90\% by reusing slow-loading components to provide the best customer experience possible\\
 
-\subsection{Developer and Founder}{November 2016-Present}
-\textit{tenbounce.com}\\
-\textbullet\ Developed a custom web app which allows trampoline coaches to easily track athlete progress\\
+%----------------------------------------------------------------------------------------
+% Project
+%----------------------------------------------------------------------------------------
+\section{Projects}
+\subsection{Tenbounce}{November 2016-December 2021}
+\textbullet\ Designed and developed a web application which allows trampoline coaches to easily track their athletes' progress\\
 \textbullet\ Implemented an API using Python Flask framework to control, access and display data stored in a PostgreSQL database\\
-\textbullet\ Combined back end with JavaScript front end to create a dynamic, responsive and easy-to-use user interface\\
+\textbullet\ Combined backend with JavaScript front end to create a dynamic, responsive and easy-to-use user interface\\
 \textbullet\ Leveraged Google Charts API to display data to users in a convenient and easily interpreted manner\\
-\textbullet\ Programmed custom regression and clustering algorithms to infer important information about user data\\
 \textbullet\ Recruited beta testers from Facebook group to gather interesting use cases and suggestions for improvement\\
-\textbullet\ Enumerated and administered multiple UI/UX tasks to uncover usability and experience flaws and improve thereon\\
-\textbullet\ Marketed software to coaching peers and increase usage to over three hundred athletes and thirteen thousand data points\\
+\textbullet\ Programmed regression and clustering algorithms to infer important information about user-submitted data points\\
+\textbullet\ Enumerated and administered multiple UI/UX tests to uncover usability and experience flaws and improve thereupon\\
 \textbullet\ Modified and enhanced functionality as appropriate to improve usability and user experience\\
-
-\subsection{Discrete Mathematics Instructional Aide}{September-December 2016}
-\textit{The University of Michigan}\\
-\textbullet\ Administered office hours to provide one-on-one student advice
- as well as homework help and feedback\\
-\textbullet\ Led weekly discussion section with up to forty students to facilitate
- collaboration and aid group problem solving\\
-\textbullet\ Brainstormed exam questions in collaboration with professors to test student knowledge effectively\\
-\textbullet\ Collaborated with coworkers to design weekly homework sets to measure and enhance student understanding\\
+\textbullet\ Marketed software to coaching peers and increase usage to over three hundred athletes and thirteen thousand data points\\
 
 %----------------------------------------------------------------------------------------
-% Leadership Experience and Communication Skills
+% Education
 %----------------------------------------------------------------------------------------
-\section{Leadership Experience and Communication Skills}
-\subsection{Competitive Trampoline Coach}{January 2012-August 2019}
-\textit{Grand Rapids Trampoline Center}\\
-\textbullet\ Designed individual athlete programming based on age and skill level to maximize competitiveness\\
-\textbullet\ Led team to multiple top-three team titles at the National Championships as an athlete and coach\\
-\textbullet\ Presented coaching strategy and philosophy in front of coaching peers at the annual National Congress\\
-\textbullet\ Served as subject matter expert for progressions for double and triple somersaults with multiple twists\\
-\textbullet\ Compiled trampoline times of flight to predict relationship between actual and adjusted using ML techniques\\
+\section{Education}
+\subsection{The University of Michigan, Ann Arbor} {April 2017}
+Bachelors of Science in Computer Science \hfill \normalsize \textsc{GPA}: 3.92/4.0\\
+Bachelors of Science in Pure Mathematics \hfill \normalsize \textit{High Honors}\\
+Minor in Linguistics, EECS Scholar\\
+\textit{Coursework}: Data Structures and Algorithms, Web Databases and Information Systems, Machine Learning,\\
+\hphantom{Coursework:::}Artificial Intelligence, Computer Security, Linear Algebra,
+Real and Complex Analysis,\\
+\hphantom{Coursework:::}Combinatorics and Graph Theory, Mathematics of Finance, Computational Linguistics\\
 
 %----------------------------------------------------------------------------------------
-% Skills
+% Skillset
 %----------------------------------------------------------------------------------------
-\section{Experience}
-Google Cloud Platform, Docker, Kubernetes, MySQL, PostegreSQL, Terraform, Datadog, Hadoop, MapReduce, Spark, Java, Scala, Python, Flask, JavaScript, Node, React, HTML, CSS, Bootstrap, Git, Latex, Linux, Spanish\\
+\section{Skillset}
+Google Cloud Platform, BigQuery, Dataproc, GKE, Docker, Kubernetes, MySQL, PostegreSQL, Terraform, Datadog, Hadoop, MapReduce, Spark, Go, Java, Scala, Python, Flask, JavaScript, Node, React, HTML, CSS, Bootstrap, Git, \LaTeX, Linux, Spanish, FinOps\\
 
 \end{document}
-
