@@ -1,0 +1,1 @@
+[View Resume (PDF)](./resume.pdf)
